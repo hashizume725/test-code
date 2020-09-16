@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SynergyTestComponent } from './synergy-test/synergy-test.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SynergyTestComponent
   ],
   imports: [
     BrowserModule,
